@@ -1,0 +1,5 @@
+,amount,temp,sun_hours,precip
+amount,1.0,0.01,-0.03,-0.02
+temp,0.01,1.0,0.27,0.19
+sun_hours,-0.03,0.27,1.0,0.79
+precip,-0.02,0.19,0.79,1.0

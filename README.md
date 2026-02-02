@@ -14,7 +14,7 @@ Forecasting daily BBQ sauce demand using time-series EDA, decomposition, and an 
 - [How to Run](#how-to-run)
 - [Reproducibility Notes](#reproducibility-notes)
 - [Limitations](#limitations)
-- [License](#license)
+
 
 ---
 
@@ -82,7 +82,7 @@ The analysis uses **three CSV files**:
 ## Results (High-Level)
 
 The notebook reports:
-- Strong seasonal structure (notably spring/summer peaks) and growth phases across years.
+- Weak seasonal structure (notably spring/summer peaks) and growth phases across years.
 - Weekday-only demand behavior (weekends are structural zeros / absent in the data).
 - Weather and price effects appear limited compared to calendar/seasonality signals.
 - The tuned N-BEATS model captures trend + seasonality and provides stable short-horizon forecasts; errors increase on exceptional spike days (inherently hard to predict).
